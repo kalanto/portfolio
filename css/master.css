@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500,400italic,500italic,700italic,900italic,300italic,300,100italic,100);
 html{
    font-family: amaranth;
+   font-size: 24px;
    margin: 0;
 }
 .typer{
@@ -16,8 +17,8 @@ html{
    left:50%;
    transform: translate(-50%,-50%);
    padding: 5%;
-   opacity: .79;
-   /*width: 70%;*/
+   opacity: .8;
+   width: 70%;
 }
 .center{
    text-align: center;
@@ -39,7 +40,7 @@ h1,h2,h3{
    transform: translate(-50%,-50%);
    padding: 5%;
    opacity: .8;
-   /*width: 70%;*/
+   width: 70%;
 }
 .proj{
    display: inline-block;
