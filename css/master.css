@@ -7,9 +7,8 @@ html{
 }
 .typer{
    text-align: center;
-   font-size: 80px;
+   font-size: 90px;
    font-family: amaranth;
-   color: rgb(51, 52, 52);
    background-color: rgb(101, 101, 101);
    font-family: amaranth;
    position: absolute;
@@ -19,16 +18,21 @@ html{
    padding: 5%;
    opacity: .8;
    width: 70%;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-khtml-border-radius: 10px;
 }
 .center{
    text-align: center;
+   margin:0 auto;
 }
 p{
    text-indent: 25px;
 }
 h1,h2,h3{
    text-align: center;
-   font-size: 24px;
+   font-size: 30px;
    font-family: roboto;
 }
 .about{
@@ -41,6 +45,10 @@ h1,h2,h3{
    padding: 5%;
    opacity: .8;
    width: 70%;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px;
 }
 .proj,.contact{
    background-color: rgb(101, 101, 101);
@@ -51,9 +59,24 @@ h1,h2,h3{
    transform: translate(-50%,-50%);
    padding: 5%;
    opacity: .8;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px; /* future proofing */
+   -khtml-border-radius: 10px;
 }
-.proj{
+.proj,#contact{
    display: inline-block;
+}
+.left{
+   position: relative;
+}
+.right{
+   position: relative;
+   float:right;
+   margin-top: -17%;
+}
+#resume{
+   clear: both;
 }
 .grow { transition: all .2s ease-in-out; }
 .grow:hover
