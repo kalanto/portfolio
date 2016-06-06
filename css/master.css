@@ -31,7 +31,7 @@ h1,h2,h3{
    font-size: 24px;
    font-family: roboto;
 }
-.about,.proj,.contact{
+.about{
    background-color: rgb(101, 101, 101);
    font-family: amaranth;
    position: absolute;
@@ -41,6 +41,16 @@ h1,h2,h3{
    padding: 5%;
    opacity: .8;
    width: 70%;
+}
+.proj,.contact{
+   background-color: rgb(101, 101, 101);
+   font-family: amaranth;
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   padding: 5%;
+   opacity: .8;
 }
 .proj{
    display: inline-block;
