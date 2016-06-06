@@ -6,16 +6,16 @@ angular.module("app").directive("typeDir", function() {
      templateUrl: './views/type.html',
      controller: function() {
         var sections = [
-          {sentence : ' a MEAN Stack web developer.' }
-        , {sentence : ' from Las Cruces, NM. ' }
-        , {sentence : ' learning to code at DevMountain. ' }
-        , {sentence : ' a fun person to be around.' }
-        , {sentence : ' in love with green chile.' }
-        , {sentence : ' missing his two spoiled cats.' }
-        , {sentence : ' currently living in Provo, UT. ' }
-        , {sentence : ' ususally found outdoors. ' }
-        , {sentence : ' going to travel the globe.' }
-        , {sentence: ' a Messillero.'}
+          {sentence : ' is a MEAN Stack web developer.' }
+        , {sentence : ' is from Las Cruces, NM. ' }
+        , {sentence : ' is learning to code at DevMountain. ' }
+        , {sentence : " enjoy's a good laugh." }
+        , {sentence : " love's him some green chile." }
+        , {sentence : ' misses his two spoiled cats.' }
+        , {sentence : ' currently lives in Provo, UT. ' }
+        , {sentence : " love's exploring outdoors. " }
+        , {sentence : ' will to travel the globe. ' }
+        , {sentence: ' ;-P'}
         ];
 
         var i = 0;
@@ -24,7 +24,7 @@ angular.module("app").directive("typeDir", function() {
         var forward = true;
         var opening = false;
         var interval = 60;
-        var beginning = 'Scott Booth is...';
+        var beginning = 'Scott Booth';
         var lengthArray = sections.length;
         var currentPart = ''
         var lengthSentence = 0
