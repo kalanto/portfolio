@@ -1,23 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
    <head>
-      <link rel="stylesheet" href="./css/master.css" media="screen" title="no title" charset="utf-8">
-      <link rel="stylesheet" href="./css/bgchanger.css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="/css/countdown.css" media="screen" title="no title" charset="utf-8">
+         <link rel="stylesheet" href="./css/master.css" media="screen" title="no title" charset="utf-8">
+            <link rel="stylesheet" href="./css/bgchanger.css" media="screen"  title="no title" charset="utf-8">
+               <link rel="stylesheet" href="./css/menu.css" media="screen"  title="no title" charset="utf-8">
       <title>Scott Booth</title>
    </head>
-   <body ng-app="app">
+   <body ng-controller="controller">
 <!-- J QUERY CDN -->
-<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-      <div class="main" ng-controller="controller">
-         <menu-dir></menu-dir>
-            <ui-view></ui-view>
-               <foot-dir></foot-dir>
-      </div>
-         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+   <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<!-- BACKGROUND CHANGER -->
+            <div id="wrap" >
+               <img class="bgfade" src="../img/BG/1.png" />
+               <img class="bgfade" src="../img/BG/2.jpg" />
+               <img class="bgfade" src="../img/BG/3.jpg" />
+               <img class="bgfade" src="../img/BG/4.jpg" />
+               <img class="bgfade" src="../img/BG/5.jpg" />
+               <img class="bgfade" src="../img/BG/6.jpg" />
+               <img class="bgfade" src="../img/BG/7.jpg" />
+               <img class="bgfade" src="../img/BG/8.jpg" />
+               <img class="bgfade" src="../img/BG/9.jpg" />
+               <img class="bgfade" src="../img/BG/10.jpg" />
+               <img class="bgfade" src="../img/BG/11.jpg" />
+            </div>
+            <menu-dir></menu-dir>
+               <ui-view></ui-view>
+                  <foot-dir></foot-dir>
+<!-- END OF CONTROLLER -->
+         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
          <script src="./js/bgchngr.js"></script>
          <script src="./js/app.js"></script>
          <script src="./js/controller.js"></script>
+         <script src="./js/menuDir.js"></script>
+         <script src="./js/typer.js"></script>
          <script src="./js/service.js"></script>
    </body>
 </html>
