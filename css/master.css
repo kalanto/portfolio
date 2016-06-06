@@ -74,16 +74,21 @@ border-radius: 10px; /* future proofing */
 .proj,#contact{
    display: inline-block;
 }
+.parent{
+   padding: 1%;
+}
 .left{
-   position: relative;
+   float: left;
 }
 .right{
-   position: relative;
-   float:right;
-   margin-top: -17%;
+   float: right;
 }
 #resume{
    clear: both;
+   padding: 2%;
+}
+.resume{
+   border-radius: 100%;
 }
 .grow { transition: all .2s ease-in-out; }
 .grow:hover
