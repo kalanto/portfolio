@@ -9,11 +9,11 @@ angular.module("app").directive("typeDir", function() {
           {sentence : ' is a MEAN Stack web developer.' }
         , {sentence : ' is from Las Cruces, NM. ' }
         , {sentence : ' is learning to code at DevMountain. ' }
-        , {sentence : " enjoy's a good laugh." }
-        , {sentence : " love's him some green chile." }
+        , {sentence : " enjoys a good laugh." }
+        , {sentence : " loves him some green chile." }
         , {sentence : ' misses his two spoiled cats.' }
         , {sentence : ' currently lives in Provo, UT. ' }
-        , {sentence : " love's exploring outdoors. " }
+        , {sentence : " loves exploring outdoors. " }
         , {sentence : ' will to travel the globe. ' }
         , {sentence: ' ;-P'}
         ];
